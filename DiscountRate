@@ -1,0 +1,23 @@
+package.Seatwork1
+
+public class Gcash implements PaymentMode {
+    @Override
+    public double determineDiscountRate() {
+        return 0;
+    }
+}
+
+public class Paymaya implements PaymentMode{
+    @Override
+    public double determineDiscountRate() {
+        return 0.05;
+    }
+}
+
+
+public class Shopee implements PaymentMode{
+    @Override
+    public double determineDiscountRate() {
+        return 0.1;
+    }
+}
