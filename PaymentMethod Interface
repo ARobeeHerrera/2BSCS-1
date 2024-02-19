@@ -1,0 +1,5 @@
+package Seatwork1;
+
+public interface PaymentMode {
+    public double determineDiscountRate();
+}
